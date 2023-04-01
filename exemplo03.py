@@ -1,8 +1,7 @@
-from PySimpleGUI import (
-    Window, Button, Text, Image, Input, Column, VSeparator, ## Nesse exemplos exportamos mais algumas funções para criar uma janela dividida
-    Push   
-)
+from PySimpleGUI import Window, Button, Text, Image, Input, Column, VSeparator, Push, theme
 
+
+theme('DarkPurple')
 
 layout_esquerda = [
     [Image(filename='Barbara0_1.png')]

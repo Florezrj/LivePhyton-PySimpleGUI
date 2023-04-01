@@ -18,6 +18,6 @@ janela = Window(
 
 )
 
-janela.read()
+janela.read() # Ler eventos
 
 janela.close()
