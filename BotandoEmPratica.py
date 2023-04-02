@@ -3,7 +3,7 @@
 from PySimpleGUI import *
 from random import randint
 
-pc = 2
+pc = randint(1,5)
 count = 0
 theme('Dark')
 layout = [
